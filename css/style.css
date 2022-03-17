@@ -1,0 +1,254 @@
+/*start RESET
+--------------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+input, select, iframe, button {border: none;}
+h1, h2, h3{margin: 0; padding: 0;}
+ol, ul{list-style: none;}
+a {text-decoration: none; color: inherit;}
+img{max-width: 100%; border: none;}
+
+@font-face {
+    font-family: LEMONMILK-Medium;
+    src: url(../fonts/LEMONMILK-Medium.otf);
+}
+a:hover{color: #1ed760;}
+
+/*end RESET
+--------------------*/
+
+/*start-HEADER
+--------------------*/
+.header{
+    height: 80px;
+    width: 100%;
+    background: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 15px;
+}
+.container-header{
+    height: 80px;
+    width: 1140px;
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+    align-items: center;
+    padding: 0px 15px;    
+}
+.logo-header{
+    margin-right: auto;
+    width: 131px; 
+}
+.nav ul{
+    display: inline;
+}
+.nav-itens li{
+    display: inline-block;
+    padding: 0px 15px;
+}
+.nav2{
+    color: #d9dadc;
+}
+
+/*end-HEADER
+--------------------*/
+
+/*start-MAIN-CONTENT
+--------------------*/
+.section {
+    display: block;
+    min-height: 800px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #2941ab;
+}
+.main-content{
+    display: block;
+    min-height: 800px;
+    width: 100%;
+    background-image: url('../imgs/circles.svg');
+    background-size: 175%;
+    background-position: 46% 4%;
+    background-repeat: no-repeat;
+}
+.main-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+}
+.frase-principal{
+    
+    width: 1018px;
+    height: 330px;
+}
+.frase-principal h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: -6px;
+    font-size: 150px;
+    color: #1ed760;
+    text-align: center;    
+}
+.paragrafo{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#1ed760;
+    font-weight: bold;
+    margin-bottom:20px;
+}
+.button{
+    background-color: #1ed760;
+    width: 217px;
+    font-family: LEMONMILK-Medium;
+    font-size: 12px;
+    color:#2941ab;
+    margin-top: 20px;
+    padding: 15px 30px 15px;
+    border-radius: 30px;
+    /* fazer script de ampliação no botão e alterar comportamento do hover*/
+}
+.button > a:hover{color: #2941ab;}
+
+/*end-MAIN-CONTENT
+--------------------*/
+
+/*footer
+-----------------*/
+footer {
+    background-color: #000;
+    height: 530px;
+    width: 100%;
+}
+.footer-box{
+    display: flex;
+    max-height: 530px;
+    width: 1140px;
+    margin: auto;
+
+}
+.logo-footer{
+    width: 131px;
+    padding-top: 80px;
+}
+.list{
+    display: inline-block;
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 70px;
+    padding-top: 100px;
+}
+.list li{
+    padding-bottom: 30px;
+}
+.list-title{
+    font-family: LEMONMILK-Medium;
+    font-size: 12px;
+    color: #919496;
+}
+.social{
+    margin-left: auto;
+    padding-top: 100px;
+}
+.social ul{
+    display: inline-block;
+}
+.social ul li{
+    display: inline-block;
+    background-color: #222326;
+    width: 54px;
+    border-radius: 30px;
+    color:#fff;
+    font-size: 24px;
+    text-align: center;
+    margin-left: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.footer-box2{
+    display: block;
+    background-color: #2941ab;
+    width: 1140px;
+    margin: 66px auto 0px;
+}
+.footer-right1{
+    display: block;
+    float: right;
+    width: 1140px;
+    color: #919496;
+    font-size: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+.footer-right1 a{
+    margin-left: 6px;
+}
+.footer-left{
+    display: block;
+    float: left;
+    width: 50%;
+    color: #919496;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+}
+.footer-left li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+.footer-right2{
+    display: block;
+    float: right;
+    width: 40%;
+    color: #919496;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    padding-top: 15px;
+}
