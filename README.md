@@ -1,2 +1,2 @@
-# 01-projeto-spotify
- Spotify's landing page
+# 01-spotify-project
+ Spotify home page clone.
