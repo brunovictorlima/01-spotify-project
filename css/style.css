@@ -123,8 +123,7 @@ a:hover{color: #1ed760;}
     align-items: center;
     padding: 200px;
 }
-.frase-principal{
-    
+.frase-principal{    
     width: 1018px;
     height: 330px;
 }
@@ -311,5 +310,90 @@ footer {
         font-size: 12px;
         font-family:Arial, Helvetica, sans-serif;
         text-align: right;
+    }
+}
+
+@media (max-width: 479.9px){
+    .header{
+        height: 54px;
+        width: 100%;
+        background: #000;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: #fff;
+        font-size: 15px;
+    }
+    .container-header{
+        height: 54px;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    .logo-header{
+        width: 89px;
+        float: left;
+    }
+    .nav-toggle{
+        color: #fff;
+        font-size: 23px;
+        float: right;
+    }
+    .nav{
+        display: none;
+    }
+    .main-content{
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        background-image: url('../imgs/circles_mobile.svg');
+        background-size: 215%;
+        background-position: center top 40%;
+        background-repeat: no-repeat;
+        justify-content: center;
+	    overflow: hidden;
+    }
+    .main-box{        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+    .frase-principal{
+        width: 312px;
+        height: auto;
+        padding: 16px;
+    }
+    .frase-principal h1{
+        font-size: 48px;
+        letter-spacing: -2px;
+    }
+    .paragrafo{
+        width: 312px;
+        font-size: 15px;
+        font-weight: normal;
+    }
+    .footer-box{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 1080px;
+        margin: 0 auto;
+        padding: 15px;
+    }
+    .logo-footer{
+        display: block;
+        width: 89px;
+        float: left;
+    }
+    .list{
+        display: block;
+        color:#fff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        margin: 0;
     }
 }
