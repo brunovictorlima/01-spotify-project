@@ -83,6 +83,9 @@ a:hover{color: #1ed760;}
     margin-right: auto;
     width: 131px; 
 }
+.nav-toggle{
+    display: none;
+}
 .nav ul{
     display: inline;
 }
@@ -170,6 +173,7 @@ footer {
     flex-wrap: wrap;
     width: 1140px;
     margin: auto;
+    padding: 80px 0 50px;
 }
 .div-logo{
     width: 16.7%;
@@ -189,7 +193,8 @@ footer {
     padding: 0 15px;
     width: 195px;
 }
-.list li{
+.list-item{
+    margin: 20px 0px;
     padding-bottom: 30px;
 }
 .list-title{
@@ -198,9 +203,9 @@ footer {
     color: #919496;
 }
 .social{
-    width: 33.3%;
+    width: auto;
     display: inline-block;
-    justify-content: flex-end;
+    margin-left: auto;
 }
 .social ul{
     display: inline-block;
@@ -240,7 +245,7 @@ footer {
 }
 .footer-left li{
     display: inline-block;
-    padding: 0px 10px;
+    padding-right: 20px;
 }
 .footer-right2{
     display: block;
@@ -275,8 +280,7 @@ footer {
         background-repeat: no-repeat;
         justify-content: center;
     }
-    .frase-principal{
-    
+    .frase-principal{    
         width: 754px;
         height: 232px;
     }
@@ -338,6 +342,7 @@ footer {
         float: left;
     }
     .nav-toggle{
+        display: block;
         color: #fff;
         font-size: 23px;
         float: right;
@@ -377,5 +382,52 @@ footer {
         width: 312px;
         font-size: 15px;
         font-weight: normal;
+    }
+/*footer
+-----------------*/
+    footer {
+        background-color: #000;
+        height: 57em;
+        width: 100%;
+    }
+    .footer-box{
+        display: block;
+        height: 57em;
+        width: 100%;
+        padding: 50px 0 20px;
+    }
+    .logo-footer{
+        width: 89px;
+        padding: 0 15px;
+    }
+    .table{
+        display: block;
+        width: 200px;
+        height: auto;
+    }
+    .list-item{
+        margin: 0;
+        padding: 3px 0 15px;
+    }
+    .list-title{
+        margin: 50px 0 22px;
+    }
+    .social{
+        margin-top: 50px;
+    }
+    .footer-left{
+        display: block;
+        float: left;
+        width: 50%;
+        margin-left: 15px;
+    }
+    .footer-right1{
+        float: right;
+        width: 90%;
+        margin: 0 15px;    
+    }
+    .footer-right2{
+        margin: 0 15px;
+        width: 30%;
     }
 }
