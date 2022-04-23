@@ -192,15 +192,16 @@ footer {
     font-size: 15px;
     padding: 0 15px;
     width: 195px;
+    height: 346px;
 }
 .list-item{
-    margin: 20px 0px;
-    padding-bottom: 30px;
+    padding: 3px 0 15px;
 }
 .list-title{
     font-family: LEMONMILK-Medium;
     font-size: 12px;
     color: #919496;
+    margin: 20px 0;
 }
 .social{
     width: auto;
@@ -260,6 +261,7 @@ footer {
 
 /*BREAKPOINTS MÁXIMOS
 --------------------------*/
+
 @media (max-width: 1199.9px){
     .container-header{
         height: 80px;
@@ -316,6 +318,117 @@ footer {
         font-size: 12px;
         font-family:Arial, Helvetica, sans-serif;
         text-align: right;
+    }
+}
+
+@media (max-width: 767.9px){
+    .header{
+        height: 54px;
+        width: 100%;
+        background: #000;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: #fff;
+        font-size: 15px;
+    }
+    .container-header{
+        height: 54px;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    .logo-header{
+        width: 89px;
+        float: left;
+    }
+    .nav-toggle{
+        display: block;
+        color: #fff;
+        font-size: 23px;
+        float: right;
+    }
+    .nav{
+        display: none;
+    }
+    .main-content{
+        display: block;
+        min-height: 800px;
+        width: 100%;
+        background-image: url('../imgs/circles_tablet.svg');
+        background-size: 153%;
+        background-position: right 40% center;
+        background-repeat: no-repeat;
+        justify-content: center;
+    }
+    .frase-principal{    
+        width: 754px;
+        height: 232px;
+    }
+    .frase-principal h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        letter-spacing: -4px;
+        font-size: 98px;
+        color: #1ed760;
+        text-align: center;
+        width: 100%;
+    }
+    .paragrafo{
+        width: 400px;
+        text-align: center;
+        line-height: 24px;
+    }
+/*footer
+-----------------*/
+    footer {
+        background-color: #000;
+        height: 57em;
+        width: 100%;
+    }
+    .footer-box{
+        display: block;
+        height: 57em;
+        width: 100%;
+        padding: 50px 0 20px;
+    }
+    .logo-footer{
+        width: 89px;
+        padding: 0 15px;
+    }
+    .table{
+        display: block;
+        width: 200px;
+        height: auto;
+    }
+    .list{
+        height: auto;
+    }
+    .list-item{
+        margin: 0;
+        padding: 3px 0 15px;
+    }
+    .list-title{
+        margin: 50px 0 22px;
+    }
+    .social{
+        margin-top: 50px;
+    }
+    .footer-left{
+        display: block;
+        float: left;
+        width: 50%;
+        margin-left: 15px;
+    }
+    .footer-right1{
+        float: right;
+        width: 90%;
+        margin: 0 15px;    
+    }
+    .footer-right2{
+        margin: 0 15px;
+        width: 30%;
     }
 }
 
@@ -403,6 +516,9 @@ footer {
     .table{
         display: block;
         width: 200px;
+        height: auto;
+    }
+    .list{
         height: auto;
     }
     .list-item{
