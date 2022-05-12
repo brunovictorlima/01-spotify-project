@@ -49,15 +49,14 @@ h1, h2, h3{margin: 0; padding: 0;}
 ol, ul{list-style: none;}
 a {text-decoration: none; color: inherit;}
 img{max-width: 100%; border: none;}
+/*end RESET
+--------------------*/
 
 @font-face {
     font-family: LEMONMILK-Medium;
     src: url(../fonts/LEMONMILK-Medium.otf);
 }
 a:hover{color: #1ed760;}
-
-/*end RESET
---------------------*/
 
 /*start-HEADER
 --------------------*/
